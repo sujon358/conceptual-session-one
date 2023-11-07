@@ -61,3 +61,24 @@ margin-bottom: 15px;
     color: tomato;
     cursor: pointer;
 }
+.about-container{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.about-description{
+    font-size: 18px;
+}
+.explore{
+    margin-top: 15px;
+}
+.tilte{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
