@@ -62,15 +62,17 @@ margin-bottom: 15px;
     cursor: pointer;
 }
 .about-container{
-    height: 400px;
+    /* height: 300px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
+    padding: 35px;
 }
 .about-title{
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 .about-description{
     font-size: 18px;
@@ -79,6 +81,38 @@ margin-bottom: 15px;
     margin-top: 15px;
 }
 .tilte{
-    font-size: 55px;
+    font-size: 25px;
     margin-bottom: 20px;
+    margin-top: 0;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+width: 70px;
+}
+.box-btn{
+    background-color: rgb(39, 37, 37);
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.sevice-section{
+    background-image: linear-gradient(rgb(8,8,8),rgb(53,53,53));
 }
